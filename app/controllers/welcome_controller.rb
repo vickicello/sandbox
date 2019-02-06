@@ -1,6 +1,8 @@
 class WelcomeController < ApplicationController
 
-def home
-end
+  def home
+    @cats = Cat.all
+    @owners = Owner.all
+  end
 
 end

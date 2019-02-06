@@ -3,5 +3,14 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+  owners = Owner.create([
+    { name: 'Vicki', age: 29 }, 
+    { name: 'Maggie', age: 26 }, 
+    { name: 'Walter', age: 21 }
+  ])
+   
+  cats = Cat.create([
+    {name: 'Panda', fur_color: 'white', owner_id: 1},
+    {name: 'Lily', fur_color: 'black', owner_id: 2},
+    {name: 'Stella', fur_color: 'brown', owner_id: 3}
+  ])
